@@ -26,9 +26,7 @@ function dibujarFondo() {
     // Cielo azul claro (RGB: 135, 206, 235)
     background(135, 206, 235);
     
-    // Fondo de árboles lejanos (comienza a la mitad del lienzo)
-    fill(colorArbol3);
-    rect(0, height/2 - 100, width, height/2 + 100);
+
     
     // Árboles del fondo
     for (let i = 0; i < width; i += 120) {
